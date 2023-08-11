@@ -6,7 +6,11 @@ export default function Products() {
   const productInfo = {
     img1: {
       imgSrc:
-        "https://images.interestingengineering.com/img/iea/QjOdYrRpGd/eufy-by-anker-boostiq-robovac-11s.jpg"
+        "https://images.interestingengineering.com/img/iea/QjOdYrRpGd/eufy-by-anker-boostiq-robovac-11s.jpg",
+      info:
+        eufy by Anker BoostIQ RoboVac 11S
+        
+      
     },
     img2: {
       imgSrc:
@@ -40,7 +44,7 @@ export default function Products() {
       <ol style={list}>
         {Object.keys(productInfo).map((key, index) => (
           <li key={index} style={list_style}>
-            {index + 1}. {key}
+            {index + 1}. {key.info}
             <img style={imgStyle} src={productInfo[key].imgSrc} alt={key} />
           </li>
         ))}
