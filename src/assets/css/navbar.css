@@ -1,0 +1,42 @@
+.navbar {
+  height: 5rem;
+  width: 100vw;
+  margin: 0 auto;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 3;
+}
+.logo {
+  object-fit: cover;
+  width: 3rem;
+  height: 2rem;
+  border-radius: 0.5rem;
+}
+.menu_list_Item {
+  margin: 1rem;
+  cursor: pointer;
+}
+.menu_list_Item:hover {
+  color: yellowgreen;
+  padding-bottom: 0.5em;
+  border-bottom: 1px solid yellowgreen;
+}
+.contact_btn {
+  background-color: white;
+  padding: 0 1rem;
+  border-radius: 2rem;
+  margin-right: 1rem;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contact_btn img {
+  width: 2rem;
+  height: 2rem;
+  margin: 0.5rem;
+}

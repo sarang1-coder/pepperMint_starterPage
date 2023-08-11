@@ -1,0 +1,37 @@
+#intro {
+  height: calc(100vh-5rem);
+  width: 100vw;
+  position: relative;
+}
+.robot_img {
+  position: absolute;
+  z-index: -1;
+  right: 0;
+  object-fit: cover;
+  height: 100vh;
+  float: right;
+}
+/* intro.css */
+.intrContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 2rem;
+  width: 50%; /* Adjust the width as needed */
+  box-sizing: border-box;
+}
+.content {
+  font-size: 2.5rem;
+  padding: 2rem;
+}
+.heading {
+  color: yellow;
+  font-size: 2rem;
+}
+.info1 {
+  font-size: 1.5rem;
+}
+.info li {
+  font-size: 1.5rem;
+}
